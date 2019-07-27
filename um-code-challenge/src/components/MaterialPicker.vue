@@ -2,7 +2,7 @@
   <v-container>
     <v-layout xs12
               justify-center>
-      <h2 class="display-1 mb-3">{{ title }}</h2>
+      <h2 class="display-1 my-5">{{ title }}</h2>
     </v-layout>
     <v-layout xs12>
       <v-flex xs12

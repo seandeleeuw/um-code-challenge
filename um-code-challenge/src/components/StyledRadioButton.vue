@@ -45,8 +45,9 @@ export default {
       margin: 5px;
       box-shadow: 0px 0px 0px 0px transparent;
       transition: all 0.2s ease-in-out;
-      &--active {
-        border: 2px solid #333;
+      &--active,
+      &:hover {
+        border: 1px solid #333;
         box-shadow: 0px 4px 8px 0px rgba(102, 102, 102, 0.65);
       }
     }

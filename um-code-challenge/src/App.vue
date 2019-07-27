@@ -1,6 +1,7 @@
 <template>
   <v-app>
-    <v-app-bar app>
+    <v-app-bar app
+               class="">
       <v-toolbar-title class="headline text-uppercase">
         <span>Ultimaker </span>
         <span class="font-weight-light">material picker</span>
