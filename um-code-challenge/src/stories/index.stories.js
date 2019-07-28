@@ -1,10 +1,8 @@
-/* eslint-disable react/react-in-jsx-scope */
-
 import { storiesOf } from "@storybook/vue";
 import ImageCrossfader from "../components/ImageCrossfader";
 
 storiesOf("ImageCrossfader", module).add("default", () => ({
-  component: { ImageCrossfader },
+  components: { ImageCrossfader },
   data() {
     return {
       imageList: [
