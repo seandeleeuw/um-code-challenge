@@ -17,11 +17,13 @@
 
 <script>
 import MaterialPicker from './components/MaterialPicker';
+import ImageCrossfader from './components/ImageCrossfader';
 
 export default {
   name: 'App',
   components: {
     MaterialPicker,
+    ImageCrossfader
   },
   data: () => ({
     //

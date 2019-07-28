@@ -13,6 +13,7 @@
 
 <script>
 export default {
+  name: "ImageCrossfader",
   data() {
     return {
       imageList: this.images,

@@ -10,7 +10,7 @@
               offset-sm2>
         <v-layout wrap>
           <template v-for="color in colorList">
-            <StyledRadioButton v-bind:key="color.id"
+            <StyledRadioButton :key="color.id"
                                :active="selected === color.id"
                                :background="color.colorCode"
                                :id="color.id"
